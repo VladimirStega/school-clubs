@@ -1,0 +1,1 @@
+import{N as e}from"./NavSection-2790988a.js";import{o,c as t,a}from"./index-2805d0d4.js";const c={class:"home"},i={__name:"HomeView",setup(s){return(r,_)=>(o(),t("div",c,[a(e)]))}};export{i as default};
