@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HeroSection from './components/HeroSection.vue'
+import FooterSection from './components/FooterSection.vue'
 </script>
 
 <template>
@@ -11,18 +12,20 @@ import HeroSection from './components/HeroSection.vue'
     <!-- <main class="main-section">
 
     </main> -->
+
   </header>
+  <RouterView />
+  <FooterSection />
 </div>
 
-<RouterView />
 
 </template>
 
 <style scoped>
 
-.hero-section {
+/* .hero-section {
   height: 100vh;
-}
+} */
 
 .nav {
   padding: 0 10vw;
@@ -30,6 +33,10 @@ import HeroSection from './components/HeroSection.vue'
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.wrapper {
+  margin: 0 2vw;
 }
 
 /* header {

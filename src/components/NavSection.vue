@@ -16,63 +16,63 @@
 <template>
     <nav class="nav">
         <RouterLink class="club-link" to="/about">
-          <IconClub1 class="icon-club" />
-          <h2>Название клуба 1</h2>
+          <img class="icon-club" src="../assets/img/directions-01.95e3898.png" alt="">
+          <h3 class="title-link">УЧИСЬ И ПОЗНАВАЙ!</h3>
         </RouterLink>
 
         <RouterLink class="club-link" to="/about">
-          <IconClub2 class="icon-club" />
-          <h2>Название клуба 2</h2>
+          <img class="icon-club" src="../assets/img/directions-02.ade5afc.png" alt="">
+          <h3>ДЕРЗАЙ И ОТКРЫВАЙ!</h3>
         </RouterLink>
 
         <RouterLink class="club-link" to="/about">
-          <IconClub3 class="icon-club" />
-          <h2>Название клуба 3</h2>
+          <img class="icon-club" src="../assets/img/directions-03.ef31b8d.png" alt="">
+          <h3>НАЙДИ ПРИЗВАНИЕ!</h3>
         </RouterLink>
 
         <RouterLink class="club-link" to="/about">
-          <IconClub4 class="icon-club" />
-          <h2>Название клуба 4</h2>
+          <img class="icon-club" src="../assets/img/directions-04.da21e7e.png" alt="">
+          <h3>СОЗДАВАЙ И ВДОХНОВЛЯЙ!</h3>
         </RouterLink>
 
         <RouterLink class="club-link" to="/about">
-          <IconClub5 class="icon-club" />
-          <h2>Название клуба 5</h2>
+          <img class="icon-club" src="../assets/img/directions-05.3aeb6e3.png" alt="">
+          <h3>БЛАГО ТВОРИ!</h3>
         </RouterLink>
 
         <RouterLink class="club-link" to="/about">
-          <IconClub6 class="icon-club" />
-          <h2>Название клуба 6</h2>
+          <img class="icon-club" src="../assets/img/directions-06.4a7607b.png" alt="">
+          <h3>СЛУЖИ ОТЕЧЕСТВУ!</h3>
         </RouterLink>
 
         <RouterLink class="club-link" to="/about">
-          <IconClub7 class="icon-club" />
-          <h2>Название клуба 7</h2>
+          <img class="icon-club" src="../assets/img/directions-07.f3343ae.png" alt="">
+          <h3>ДОСТИГАЙ И ПОБЕЖДАЙ!</h3>
         </RouterLink>
 
         <RouterLink class="club-link" to="/about">
-          <IconClub8 class="icon-club" />
-          <h2>Название клуба 8</h2>
+          <img class="icon-club" src="../assets/img/directions-08.ffb24b3.png" alt="">
+          <h3>БУДЬ ЗДОРОВ!</h3>
         </RouterLink>
 
         <RouterLink class="club-link" to="/about">
-          <IconClub9 class="icon-club" />
-          <h2>Название клуба 9</h2>
+          <img class="icon-club" src="../assets/img/directions-09.a9e61e7.png" alt="">
+          <h3>РАССКАЖИ О ГЛАВНОМ!</h3>
         </RouterLink>
 
         <RouterLink class="club-link" to="/about">
-          <IconClub10 class="icon-club" />
-          <h2>Название клуба 10</h2>
+          <img class="icon-club" src="../assets/img/directions-10.372ee43.png" alt="">
+          <h3>УМЕЙ ДРУЖИТЬ!</h3>
         </RouterLink>
 
         <RouterLink class="club-link" to="/about">
-          <IconClub11 class="icon-club" />
-          <h2>Название клуба 11</h2>
+          <img class="icon-club" src="../assets/img/directions-11.67cc72c.png" alt="">
+          <h3>БЕРЕГИ ПЛАНЕТУ!</h3>
         </RouterLink>
 
         <RouterLink class="club-link" to="/about">
-          <IconClub12  class="icon-club"/>
-          <h2>Название клуба 12</h2>
+          <img class="icon-club" src="../assets/img/directions-12.d4aedc9.png" alt="">
+          <h3>ОТКРЫВАЙ СТРАНУ!</h3>
         </RouterLink>
       </nav>
 </template>
@@ -90,10 +90,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2vw 4vw;
+    margin: calc(var(--index) * 2) calc(var(--index));
+
   }
 
   .icon-club {
-    max-width: calc(var(--index) * 5);
+    max-width: calc(var(--index) * 15);
+    border-radius: 30px;
+    margin-bottom: calc(var(--index) * 1.5);
   }
 </style>

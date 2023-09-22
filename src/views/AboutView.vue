@@ -1,27 +1,62 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import NavSection from '../components/NavSection.vue'
+import BtnLinkHome from '../components/BtnLinkHome.vue'
+
 </script>
 
 <template>
-  <RouterLink class="home-link" to="/">Прейти на главну страницу</RouterLink>
-  <NavSection class="pegas-links" />
   <div class="about">
-    <h1>This is an about page</h1>
+    
+    <div class="page">
+      <h3 class="title-link">УЧИСЬ И ПОЗНАВАЙ!</h3>
+      <div class="page-content">
+          <img class="icon-club" src="../assets/img/directions-01.95e3898.png" alt="">
+        <div class="text-block">
+          <p class="page-description">
+            Время за гаджетами начнет приносить пользу. Мы познакомим участников с принципами создания видеоигр и других цифровых продуктов, расскажем, как работать с большими данными, создавать ботов, обучать нейросети, программировать беспилотники и моделировать полеты дронов. Для самых активных и результативных предусмотрены тематические смены, уникальные курсы наставничества по разработке цифровых продуктов и стажировка в одной из крупнейших отечественных IT-компаний.
+          </p>
+          <BtnLinkHome />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
-<style>
+<style scoped>
 .about {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
+    /* min-height: 100vh;
+    display: flex;
+    align-items: center; */
+  }
+
+.page {
+  padding: calc(var(--index) * 2);
+  border-radius: 35px;
+  background: #007aff;
 }
 
-.home-link {
-  margin: 2vw;
+.title-link {
+  text-align: center;
+  padding-bottom: calc(var(--index) * 2);
+}
+
+
+.page-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: calc(var(--index) * .9);
+}
+
+.icon-club {
+    min-width: calc(var(--index) * 20);
+    border-radius: 30px;
+}
+
+.page-description{
+  font-size: calc(var(--index) * 0.8);
+  max-width: calc(var(--index) * 25);
 }
 
 </style>
