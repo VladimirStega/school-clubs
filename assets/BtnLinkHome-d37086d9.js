@@ -1,0 +1,1 @@
+import{_ as t,r as o,o as n,c as s,a as c,w as _,e as a}from"./index-0871380d.js";const r={},i={class:"btn-home"};function l(m,u){const e=o("RouterLink");return n(),s("button",i,[c(e,{class:"home-link",to:"/"},{default:_(()=>[a("Прейти на главну страницу")]),_:1})])}const k=t(r,[["render",l]]);export{k as B};
