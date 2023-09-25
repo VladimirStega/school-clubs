@@ -7,7 +7,6 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
 
 <template>
   <div class="about">
-    
     <div class="page">
       <h3 class="title-link">УЧИСЬ И ПОЗНАВАЙ!</h3>
       <div class="page-content">
@@ -24,12 +23,6 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
 </template>
 
 <style scoped>
-.about {
-    /* min-height: 100vh;
-    display: flex;
-    align-items: center; */
-  }
-
 .page {
   padding: calc(var(--index) * 2);
   border-radius: 35px;
