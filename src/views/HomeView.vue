@@ -23,7 +23,8 @@
   display: flex;
   justify-content: center;;
   color: #fff;
-  padding: calc(var(--index) * 4);
+  padding: calc(var(--index) * 2);
+  font-size: calc(var(--index) * 1.5);
 }
 
 .nav-pagas {
