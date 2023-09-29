@@ -1,7 +1,7 @@
 <template>
     <div class="hero">
         <div class="title">
-            <h1 class="main-title">Объединения "Движения первых"</h1>
+            <h1 class="main-title">Объединения "Движение первых"</h1>
         </div>
         <img class="hero-img-boy" src="../assets/img/Logo_of_the_Movement_of_the_First.svg" alt="Логотип">
     </div>
