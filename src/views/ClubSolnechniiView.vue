@@ -10,31 +10,12 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
     <div class="page">
       <h3 class="title-link">УЧИСЬ И ПОЗНАВАЙ!</h3>
       <div class="page-content">
-          <img class="icon-club" src="../assets/img/directions-01.95e3898.png" alt="картинка 1">
+          <img class="icon-club" src="../assets/img/solnechnii_logo.png" alt="картинка 1">
         <div class="text-block">
           <p class="page-description">
             Время за гаджетами начнет приносить пользу. Мы познакомим участников с принципами создания видеоигр и других цифровых продуктов, расскажем, как работать с большими данными, создавать ботов, обучать нейросети, программировать беспилотники и моделировать полеты дронов. Для самых активных и результативных предусмотрены тематические смены, уникальные курсы наставничества по разработке цифровых продуктов и стажировка в одной из крупнейших отечественных IT-компаний.
           </p>
-          <div class="btn-clubs">
-            <button class="btn-link-club">
-              <RouterLink class="club-link" to="/unost"><img class="logo-club" src="../assets/img/UnostLogo_2.png" alt="картинка 1"></RouterLink>
-            </button>
-            <button class="btn-link-club">
-              <RouterLink class="club-link" to="/solnechnii"><img class="logo-club" src="../assets/img/solnechnii_logo.png" alt="картинка 1"></RouterLink>
-            </button>
-            <button class="btn-link-club">
-              <RouterLink class="club-link" to="/mediacentr"><img class="logo-club" src="../assets/img/mediacentr_logo.png" alt="картинка 1"></RouterLink>
-            </button>
-            <button class="btn-link-club">
-              <RouterLink class="club-link" to="/vmeste"><img class="logo-club" src="../assets/img/vmeste_logo.png" alt="картинка 1"></RouterLink>
-            </button>
-            <button class="btn-link-club">
-              <RouterLink class="club-link" to="/sozvezdie"><img class="logo-club" src="../assets/img/sozvezdie_logo.png" alt="картинка 1"></RouterLink>
-            </button>
-            <button class="btn-link-club">
-              <RouterLink class="club-link" to="/unost"><img class="logo-club" src="../assets/img/Orlyata_Rossii_logo.png" alt="картинка 1"></RouterLink>
-            </button>
-          </div>
+
           <BtnLinkHome />
         </div>
       </div>
@@ -63,18 +44,8 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
 }
 
 .icon-club {
-    min-width: calc(var(--index) * 20);
+    width: calc(var(--index) * 20);
     border-radius: 30px;
-}
-
-.btn-clubs {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.logo-club{
-  width: calc(var(--index) * 7);
 }
 
 

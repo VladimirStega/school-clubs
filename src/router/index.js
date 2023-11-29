@@ -104,8 +104,48 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/Page12View.vue')
+    },
+    {
+      path: '/unost',
+      name: 'unost',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/ClubUnostView.vue')
+    },
+    {
+      path: '/vmeste',
+      name: 'vmeste',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/ClubVmesteView.vue')
+    },
+    {
+      path: '/solnechnii',
+      name: 'solnechnii',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/ClubSolnechniiView.vue')
+    },
+    {
+      path: '/mediacentr',
+      name: 'mediacentr',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/ClubMediacentrView.vue')
+    },
+    {
+      path: '/sozvezdie',
+      name: 'sozvezdie',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/ClubSozvezdieView.vue')
     }
-
+    
   ]
 })
 
