@@ -1,7 +1,8 @@
 <template>
     <div class="hero">
         <div class="title">
-            <h1 class="main-title">Объединения "Движение первых"</h1>
+            <h1 class="main-title">Объединения "Движения первых"</h1>
+            <p class="title-p">МБОУ СОШ №47 г. Липецка</p>
         </div>
         <img class="hero-img-boy" src="../assets/img/Logo_of_the_Movement_of_the_First.svg" alt="Логотип">
     </div>
@@ -30,6 +31,10 @@
     .title {
         position: absolute;
         top: 20vh;
+    }
+
+    .title-p {
+        margin-top: calc(var(--index) * 2);
     }
 
     .main-title {

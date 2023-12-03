@@ -10,13 +10,17 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
     <div class="page">
       <h3 class="title-link">УЧИСЬ И ПОЗНАВАЙ!</h3>
       <div class="page-content">
-          <img class="icon-club" src="../assets/img/sozvezdie_logo.png" alt="картинка 1">
+          <img class="icon-club" src="../assets/img/sozvezdie_logoV2.png" alt="Логотип Созвездие киноклуб">
         <div class="text-block">
           <p class="page-description">
             Время за гаджетами начнет приносить пользу. Мы познакомим участников с принципами создания видеоигр и других цифровых продуктов, расскажем, как работать с большими данными, создавать ботов, обучать нейросети, программировать беспилотники и моделировать полеты дронов. Для самых активных и результативных предусмотрены тематические смены, уникальные курсы наставничества по разработке цифровых продуктов и стажировка в одной из крупнейших отечественных IT-компаний.
           </p>
-
-          <BtnLinkHome />
+          <div class="btn-nav">
+              <button class="btn-back">
+                <RouterLink class="back-link" to="/9"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
+              </button>
+            <BtnLinkHome />
+          </div>
         </div>
       </div>
     </div>

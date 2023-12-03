@@ -8,7 +8,7 @@
 .btn-home{
   display: flex;
   justify-content: center;
-  margin-top: calc(var(--index) * 2);
+  margin: calc(var(--index) * 1);
   border: 2px solid #fff;
   border-radius: 35px;
   background-color: #007aff;

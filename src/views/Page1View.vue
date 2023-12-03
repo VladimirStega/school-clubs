@@ -17,22 +17,13 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
           </p>
           <div class="btn-clubs">
             <button class="btn-link-club">
-              <RouterLink class="club-link" to="/unost"><img class="logo-club" src="../assets/img/UnostLogo_2.png" alt="картинка 1"></RouterLink>
+              <RouterLink class="club-link" to="/liga-znaniy"><img class="logo-club" src="../assets/img/logo-liga-znaniy.png" alt="Лого Лига знаний"></RouterLink>
+            </button>           
+            <button class="btn-link-club">
+              <RouterLink class="club-link" to="/orlyata"><img class="logo-club" src="../assets/img/orlyata-logo.svg" alt="Лого Орлята России"></RouterLink>
             </button>
             <button class="btn-link-club">
-              <RouterLink class="club-link" to="/solnechnii"><img class="logo-club" src="../assets/img/solnechnii_logo.png" alt="картинка 1"></RouterLink>
-            </button>
-            <button class="btn-link-club">
-              <RouterLink class="club-link" to="/mediacentr"><img class="logo-club" src="../assets/img/mediacentr_logo.png" alt="картинка 1"></RouterLink>
-            </button>
-            <button class="btn-link-club">
-              <RouterLink class="club-link" to="/vmeste"><img class="logo-club" src="../assets/img/vmeste_logo.png" alt="картинка 1"></RouterLink>
-            </button>
-            <button class="btn-link-club">
-              <RouterLink class="club-link" to="/sozvezdie"><img class="logo-club" src="../assets/img/sozvezdie_logo.png" alt="картинка 1"></RouterLink>
-            </button>
-            <button class="btn-link-club">
-              <RouterLink class="club-link" to="/unost"><img class="logo-club" src="../assets/img/Orlyata_Rossii_logo.png" alt="картинка 1"></RouterLink>
+              <RouterLink class="club-link" to="/bolshaia-peremena"><img class="logo-club" src="../assets/img/logo-bolshaia-peremena.png" alt="Лого Большая Перемена"></RouterLink>
             </button>
           </div>
           <BtnLinkHome />

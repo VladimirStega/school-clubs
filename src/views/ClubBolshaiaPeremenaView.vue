@@ -10,14 +10,14 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
     <div class="page">
       <h3 class="title-link">УЧИСЬ И ПОЗНАВАЙ!</h3>
       <div class="page-content">
-          <img class="icon-club" src="../assets/img/solnechnii_logoV2.png" alt="Лого Солнечный">
+          <img class="icon-club" src="../assets/img/logo-bolshaia-peremena.png" alt="Логотип Лига знаний">
         <div class="text-block">
           <p class="page-description">
-            Время за гаджетами начнет приносить пользу. Мы познакомим участников с принципами создания видеоигр и других цифровых продуктов, расскажем, как работать с большими данными, создавать ботов, обучать нейросети, программировать беспилотники и моделировать полеты дронов. Для самых активных и результативных предусмотрены тематические смены, уникальные курсы наставничества по разработке цифровых продуктов и стажировка в одной из крупнейших отечественных IT-компаний.
+            Клуб участников всероссийского конкурса "Большая перемена"
           </p>
           <div class="btn-nav">
               <button class="btn-back">
-                <RouterLink class="back-link" to="/11"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
+                <RouterLink class="back-link" to="/1"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
               </button>
             <BtnLinkHome />
           </div>
@@ -52,10 +52,14 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
     border-radius: 30px;
 }
 
-
 .page-description{
   font-size: calc(var(--index) * 0.8);
   max-width: calc(var(--index) * 25);
+}
+
+.btn-nav {
+  display: flex;
+  
 }
 
 </style>
