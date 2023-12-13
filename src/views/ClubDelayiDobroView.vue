@@ -13,12 +13,14 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
           <img class="icon-club" src="../assets/img/logo-delayi-dobro.png" alt="Логотип Делай добро">
         <div class="text-block">
           <p class="page-description">
-            Клуб участников всероссийского конкурса "Большая перемена"
+            "Делай добро" - Добровольческий отряд «Делай добро» создан в 2016 году. В его состав входят учащиеся 7 – 11 классов МБОУ СОШ №47 г.Липецка. Отряд занимается добровольческой деятельностью различных направлений: экологическое, социальное, культурное, событийное волонтёрство. 
+            Проводит классные часы, встречи, принимает участие в конкурсах, акциях различного уровня. 
+            Если и вы готовы оказывать помощь безвозмездно - присоединяйтесь! 
           </p>
+          <br>
+          <p class="page-description"><span class="text-decoration">Ключевое дело:</span> ежегодная ярмарка добрых дел.</p>
           <div class="btn-nav">
-              <button class="btn-back">
-                <RouterLink class="back-link" to="/5"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
-              </button>
+            <RouterLink class="back-link" to="/5"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
             <BtnLinkHome />
           </div>
         </div>

@@ -13,12 +13,12 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
           <img class="icon-club" src="../assets/img/Logo-azimyt.png" alt="Логотип Лига знаний">
         <div class="text-block">
           <p class="page-description">
-            Клуб участников всероссийского конкурса "Большая перемена"
+            Школьный туристический клуб "Азимут" - клуб, не только позволяющий привлечь к занятиям туризмом учащихся школы, но и способствующий росту туристского мастерства, достижению спортивных успехов, воспитательного и оздоровительного эффекта. 
           </p>
+          <br>
+          <p class="page-description"><span class="text-decoration">Ключевое дело:</span> участие в конкурсе по туризму "Азимут".</p>
           <div class="btn-nav">
-              <button class="btn-back">
-                <RouterLink class="back-link" to="/6"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
-              </button>
+            <RouterLink class="back-link" to="/12"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
             <BtnLinkHome />
           </div>
         </div>
@@ -59,7 +59,6 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
 
 .btn-nav {
   display: flex;
-  
 }
 
 </style>

@@ -13,13 +13,14 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
           <img class="icon-club" src="../assets/img/logo-romashka.png" alt="Логотип Орлята России">
         <div class="text-block">
           <p class="page-description">
-            Ключевое дело: 
-            Участники программы развития социальной активности обучающихся начальных классов «Орлята России»
+           
+          </p>
+          <br>
+          <p class="page-description">
+
           </p>
           <div class="btn-nav">
-              <button class="btn-back">
-                <RouterLink class="back-link" to="/11"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
-              </button>
+            <RouterLink class="back-link" to="/11"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
             <BtnLinkHome />
           </div>
         </div>
@@ -58,6 +59,9 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
   max-width: calc(var(--index) * 25);
 }
 
-
+.btn-nav {
+  display: flex;
+  
+}
 
 </style>

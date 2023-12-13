@@ -12,15 +12,14 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
       <div class="page-content">
           <img class="icon-club" src="../assets/img/logo-liga-znaniy.png" alt="Логотип Лига знаний">
         <div class="text-block">
+          <br>
           <p class="page-description">
-            Ключевое дело: 
+            <span class="text-decoration">Ключевое дело:</span> 
 Подготовка к играм 
 Участие в интеллектуальных играх: "Лига знаний: школы и колледжи", "Знание. Игра: школы и колледжи"
           </p>
           <div class="btn-nav">
-              <button class="btn-back">
-                <RouterLink class="back-link" to="/1"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
-              </button>
+            <RouterLink class="back-link" to="/1"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
             <BtnLinkHome />
           </div>
         </div>

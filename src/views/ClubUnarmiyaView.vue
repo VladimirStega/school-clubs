@@ -13,12 +13,13 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
           <img class="icon-club" src="../assets/img/logo-unarmiya.png" alt="Логотип Лига знаний">
         <div class="text-block">
           <p class="page-description">
-            Клуб участников всероссийского конкурса "Большая перемена"
+            Школьный военно-патриотический клуб "Юнармеец" – это клуб, который открывает каждому юному патриоту доступ к различным увлекательным событиям. Юнармейцы изучают военную 
+технику, занимаются поисковой деятельностью, приобщаются к спорту. 
           </p>
+          <br>
+          <p class="page-description"><span class="text-decoration">Ключевое дело:</span> торжественное посвящение в ряды "Юнармейцев"</p>
           <div class="btn-nav">
-              <button class="btn-back">
-                <RouterLink class="back-link" to="/6"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
-              </button>
+            <RouterLink class="back-link" to="/6"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
             <BtnLinkHome />
           </div>
         </div>

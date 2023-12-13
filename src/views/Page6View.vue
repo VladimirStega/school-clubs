@@ -18,9 +18,6 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
           </p>
           <div class="btn-clubs">
             <button class="btn-link-club">
-              <RouterLink class="club-link" to="/azimyt"><img class="logo-club" src="../assets/img/Logo-azimyt.png" alt="Лого Азимут"></RouterLink>
-            </button>
-            <button class="btn-link-club">
               <RouterLink class="club-link" to="/unarmiya"><img class="logo-club" src="../assets/img/logo-unarmiya.png" alt="Лого Юнармия"></RouterLink>
             </button>
           </div>

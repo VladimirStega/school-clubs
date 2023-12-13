@@ -13,12 +13,12 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
           <img class="icon-club" src="../assets/img/sozvezdie_logoV2.png" alt="Логотип Созвездие киноклуб">
         <div class="text-block">
           <p class="page-description">
-            Время за гаджетами начнет приносить пользу. Мы познакомим участников с принципами создания видеоигр и других цифровых продуктов, расскажем, как работать с большими данными, создавать ботов, обучать нейросети, программировать беспилотники и моделировать полеты дронов. Для самых активных и результативных предусмотрены тематические смены, уникальные курсы наставничества по разработке цифровых продуктов и стажировка в одной из крупнейших отечественных IT-компаний.
+            Школьный киноклуб "Созвездие" - это место встречи ребят, желающих не только посмотреть интересное кино, но и поделиться своими впечатлениями, чувствами, мыслями, увидеть более широко картину, выслушав другое мнение, иной взгляд.
           </p>
+          <br>
+          <p class="page-description"> <span class="text-decoration">Ключевое дело:</span> итоговая встреча киноклуба.</p>
           <div class="btn-nav">
-              <button class="btn-back">
-                <RouterLink class="back-link" to="/9"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
-              </button>
+            <RouterLink class="back-link" to="/9"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
             <BtnLinkHome />
           </div>
         </div>
@@ -56,6 +56,11 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
 .page-description{
   font-size: calc(var(--index) * 0.8);
   max-width: calc(var(--index) * 25);
+}
+
+.btn-nav {
+  display: flex;
+  
 }
 
 </style>

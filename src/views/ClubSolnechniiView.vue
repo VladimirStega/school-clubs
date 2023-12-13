@@ -15,10 +15,12 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
           <p class="page-description">
             Время за гаджетами начнет приносить пользу. Мы познакомим участников с принципами создания видеоигр и других цифровых продуктов, расскажем, как работать с большими данными, создавать ботов, обучать нейросети, программировать беспилотники и моделировать полеты дронов. Для самых активных и результативных предусмотрены тематические смены, уникальные курсы наставничества по разработке цифровых продуктов и стажировка в одной из крупнейших отечественных IT-компаний.
           </p>
+          <br>
+          <p class="page-description">
+
+          </p>
           <div class="btn-nav">
-              <button class="btn-back">
-                <RouterLink class="back-link" to="/11"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
-              </button>
+            <RouterLink class="back-link" to="/11"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
             <BtnLinkHome />
           </div>
         </div>
@@ -56,6 +58,11 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
 .page-description{
   font-size: calc(var(--index) * 0.8);
   max-width: calc(var(--index) * 25);
+}
+
+.btn-nav {
+  display: flex;
+  
 }
 
 </style>

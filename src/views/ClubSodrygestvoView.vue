@@ -13,12 +13,12 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
           <img class="icon-club" src="../assets/img/logo-sodrygestvo.png" alt="Логотип Содружество">
         <div class="text-block">
           <p class="page-description">
-            Клуб участников всероссийского конкурса "Большая перемена"
+            Межшкольный проект "Содружество" - проект, направленный на объединение ребят из разных школ города Липецка. 
           </p>
+          <br>
+          <p class="page-description"><span class="text-decoration">Ключевое дело:</span> итоговое апрельское мероприятие "Содружества"</p>
           <div class="btn-nav">
-              <button class="btn-back">
-                <RouterLink class="back-link" to="/10"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
-              </button>
+            <RouterLink class="back-link" to="/10"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
             <BtnLinkHome />
           </div>
         </div>

@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: titilliumweb_c;
+}
+
+@font-face {
+	font-family: titilliumweb_c;
+	src: url(../assets/fonts/titilliumweb.woff2);
 }
 
 :root {

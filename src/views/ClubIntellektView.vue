@@ -13,12 +13,12 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
           <img class="icon-club" src="../assets/img/logo-intellekt.png" alt="Логотип Интеллект">
         <div class="text-block">
           <p class="page-description">
-            Школьное научное общество «Интеллект»
+            Школьное научное общество "Интеллект" – это объединение школьников, стремящихся к совершенствованию своих знаний, к развитию творческих способностей, мышления, интеллектуальной инициативы, самостоятельности, аналитического подхода к собственной деятельности. 
           </p>
+          <br>
+          <p class="page-description"><span class="text-decoration">Ключевое дело:</span> участие в ежегодной научной конференции</p>
           <div class="btn-nav">
-              <button class="btn-back">
-                <RouterLink class="back-link" to="/2"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
-              </button>
+            <RouterLink class="back-link" to="/2"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
             <BtnLinkHome />
           </div>
         </div>

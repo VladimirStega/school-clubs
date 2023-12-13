@@ -15,26 +15,20 @@ width: calc(var(--index)* 0.4);
 }
 
 .back-link {
-margin: calc(var(--index) * .8) calc(var(--index) * 1);
 display: flex;
+margin: calc(var(--index) * 1) calc(var(--index) * 1) calc(var(--index) * 1) 0;
+padding: calc(var(--index) * .8) calc(var(--index) * 1);
 justify-content: center;
-}
-
-.btn-nav {
-    display: flex;
-}
-
-.btn-back{
-    display: flex;
-    justify-content: center;
-    margin-top: calc(var(--index) * 1);
-    margin-bottom: calc(var(--index) * 1);
-    border: 2px solid #fff;
-    border-radius: 35px;
-    background-color: #007aff;
+border: 2px solid #fff;
+border-radius: 35px;
+background-color: #007aff;
 }
 
 .text-block {
     display: flex;
     flex-direction: column;
+}
+
+.text-decoration {
+    font-size: calc(var(--index) * 1.2);
 }
