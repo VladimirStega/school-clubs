@@ -1,6 +1,6 @@
 <template>
 
-      <RouterLink class="home-link" to="/">Прейти на главну страницу</RouterLink>
+      <RouterLink class="home-link" to="/">Перейти на главну страницу</RouterLink>
 
 </template>
 
