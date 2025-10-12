@@ -8,16 +8,16 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
 <template>
   <div class="about">
     <div class="page">
-      <h3 class="title-link">УЧИСЬ И ПОЗНАВАЙ!</h3>
+      <h3 class="title-link">БЕРЕГИ ПЛАНЕТУ!</h3>
       <div class="page-content">
           <img class="icon-club" src="../assets/img/logo-romashka.png" alt="Логотип Орлята России">
         <div class="text-block">
           <p class="page-description">
-           
+            Экологический клуб «Ромашка» - участники клуба проводят экологические акции, ухаживают за зелёными насаждениями, следят за чистотой школьной территории и участвуют в проектах по сохранению природы родного края.
           </p>
           <br>
           <p class="page-description">
-
+            <span class="text-decoration">Ключевое дело:</span> организация и реализация школьных экологических проектов.
           </p>
           <div class="btn-nav">
             <RouterLink class="back-link" to="/11"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>

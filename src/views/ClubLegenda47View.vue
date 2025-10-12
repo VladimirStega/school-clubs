@@ -8,19 +8,19 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
 <template>
   <div class="about">
     <div class="page">
-      <h3 class="title-link">БЕРЕГИ ПЛАНЕТУ!</h3>
+      <h3 class="title-link">НАЙДИ ПРИЗВАНИЕ!</h3>
       <div class="page-content">
-          <img class="icon-club" src="../assets/img/solnechnii_logoV2.png" alt="Лого Солнечный">
+          <img class="icon-club" src="../assets/img/legenda47.png" alt="Лого Легенда №47">
         <div class="text-block">
           <p class="page-description">
-           Экологический отряд «Солнечный» - участники клуба проводят экологические акции, ухаживают за зелёными насаждениями, следят за чистотой школьной территории и участвуют в проектах по сохранению природы родного края.
+           Школьный спортивный клуб «Легенда №47» -  это объединение учащихся, заинтересованных в развитии спорта в школе. Участники занимаются организацией спортивных мероприятий в школе и представляют школьную команду на уровне города и региона. 
           </p>
           <br>
           <p class="page-description">
-            <span class="text-decoration">Ключевое дело:</span> организация и реализация школьных экологических проектов.
+            <span class="text-decoration">Ключевое дело:</span> организация и проведение школьных летних и зимних Олимпийских игр.
           </p>
           <div class="btn-nav">
-            <RouterLink class="back-link" to="/11"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
+            <RouterLink class="back-link" to="/7"> <img class="back-ios" src="../components/icons/back-ios.svg"></RouterLink>
             <BtnLinkHome />
           </div>
         </div>

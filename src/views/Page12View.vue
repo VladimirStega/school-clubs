@@ -6,6 +6,7 @@ import BtnLinkHome from '../components/BtnLinkHome.vue'
 </script>
 
 <template>
+  
   <div class="about">
     
     <div class="page">

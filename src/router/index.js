@@ -209,15 +209,30 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/ClubSodrygestvoView.vue')
     },
-     {
+    {
       path: '/romashka',
       name: 'romashka',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/ClubRomashkaView.vue')
+    },
+    {
+      path: '/professionaly',
+      name: 'professionaly',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/ClubProfessionalyView.vue')
+    },
+    {
+      path: '/legenda47',
+      name: 'legenda47',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/ClubLegenda47View.vue')
     }
-    
     
   ]
 })
