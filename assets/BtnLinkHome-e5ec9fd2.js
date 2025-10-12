@@ -1,0 +1,1 @@
+import{_ as t,r as n,o as s,e as _,w as r,d as c}from"./index-38b33818.js";const a={};function i(l,e){const o=n("RouterLink");return s(),_(o,{class:"home-link",to:"/"},{default:r(()=>[...e[0]||(e[0]=[c("Перейти на главную страницу",-1)])]),_:1})}const k=t(a,[["render",i]]);export{k as B};
